@@ -55,7 +55,7 @@ var event_handler = (event) => {
     // if the event is blur, and the target is an whitelisted type, allow it
     if (event.type === 'blur' &&
         ((blurWhitelist.some(type => event.target instanceof type) ||
-            event.target.classList.contains('ql-editor')))) { // quill js fix
+            event.target.classList?.contains('ql-editor')))) { // quill js fix
         return;
     }
     // if the event is mouseleave or mouseout, and the target is an blacklisted type, block it
