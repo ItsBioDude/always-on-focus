@@ -2,7 +2,7 @@
 // @name          Always on focus
 // @namespace     https://github.com/daijro/always-on-focus
 // @author        daijro
-// @version       1.5.2
+// @version       1.5.3
 // @description   Prevents websites from knowing that you switched tabs or unfocused the window
 // @include       *
 // @updateURL     https://github.com/daijro/always-on-focus/raw/main/alwaysonfocus.user.js
